@@ -1,2 +1,2 @@
 # Music_Player
-Created the project using html css
+Designed the project using html css
