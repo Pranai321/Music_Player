@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ninja Studio</title>
+	<script src="https://kit.fontawesome.com/1981abd42b.js" crossorigin="anonymous"></script>
+	<link rel="favicon" type="image/x-icon" href="">
+	<link rel="stylesheet" type="text/css"  href="Music-Player.css">
+</head>
+<body>
+		<header id="header">
+	<div id="player-icon">
+		<i class="fab fa-spotify"></i>		
+		<div id="website-name">
+			<span >Ninja</span>
+			<span>Studio</span>
+		</div>	
+	</div>
+	<div id="favourites">
+		<span>Favourites</span>
+	</div>
+	<form id="search-bar">
+		<div id="search-icon">	
+			<i class="fas fa-search"></i>
+		</div>
+		<input id="search-input" type="text" name="search" placeholder="    Search">
+		<div id="microphone-icon">
+			<i class="fas fa-microphone"></i>
+		</div>
+	</form>
+	<div id="notification-bar">
+		<i id="notification-icon" class="fas fa-bell"></i>
+	</div>
+	<div id="profile-bar">
+		<img id="profile-icon" src="C:\Users\91709\Desktop\chandler.jpg">
+	</div>
+	</header>
+	<main>
+	<section class="Artist-Introduction">
+		<div class="artist-image-div">
+			<img class="Artist-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7rW-4NlioCxHFqYSZrVq02OhcnrBktF8lJg&usqp=CAU">
+		</div>
+		<div class="Artist-details">
+			<h2>Ed-Sheeran</h2>
+			<span>Song Writer</span>
+			<p>Edward Christopher Sheeran MBE (/ˈʃɪərən/; born 17 February 1991) is an English singer, songwriter, musician, record producer, actor, and businessman. After first recording music in 2004, he began gaining attention through YouTube. In early 2011, Sheeran independently released the extended play, No. 5 Collaborations Project. He signed with Asylum Records the same year.</p>
+			<button type="button"><span>Play All</span></button>
+			<p>71 music videos</p>
+		</div>
+	</div>
+	</section>
+	<section class="songs-List">
+	<ul class="songs-container">
+		<li class="artists-songs">
+			<span class="numbering" id="no-1">01</span>
+			<div class="song-poster-div">
+				<img class="song-poster" src="https://images-na.ssl-images-amazon.com/images/I/91RptND95eL._SL1500_.jpg">
+			</div>
+			<span class="song-name">Perfect</span>
+			<span class="love"><i class="far fa-heart"></i></span>
+		</li>
+		<li class="artists-songs">
+			<span class="numbering" id="no-1">02</span>
+			<div class="song-poster-div">
+				<img class="song-poster" src="https://i.genius.com/7892481a73f62c38ea93d0fa5065e0967a16aa29?url=https%3A%2F%2Fwww.thesun.co.uk%2Fwp-content%2Fuploads%2F2019%2F09%2FNINTCHDBPICT000525693978.jpg">
+			</div>
+			<span class="song-name">Afterglow</span>
+			<span class="love"><i class="far fa-heart"></i></span>
+		</li>
+		<li class="artists-songs">
+			<span class="numbering" id="no-1">03</span>
+			<div class="song-poster-div">
+				<img class="song-poster" src="https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png">
+			</div>
+			<span class="song-name">Shape 0f you</span>
+			<span class="love"><i class="far fa-heart"></i></span>
+		</li>
+		<li class="artists-songs">
+			<span class="numbering" id="no-1">01</span>
+			<div class="song-poster-div">
+				<img class="song-poster" src="https://upload.wikimedia.org/wikipedia/en/a/ad/X_cover.png">
+			</div>
+			<span class="song-name">Photograph</span>
+			<span class="love"><i class="far fa-heart"></i></span>
+		</li>
+		<li class="artists-songs">
+			<span class="numbering" id="no-1">04</span>
+			<div class="song-poster-div">
+				<img class="song-poster" src="https://i1.sndcdn.com/artworks-cmjcIBAoKYZS-0-t500x500.jpg">
+			</div>
+			<span class="song-name">Feels</span>
+			<span class="love"><i class="far fa-heart"></i></span>
+		</li>
+		<li class="artists-songs">
+			<span class="numbering" id="no-1">05</span>
+			<div class="song-poster-div">
+				<img class="song-poster" src="https://images.genius.com/0d71bf29908bd465ca8c1813a4e97a95.1000x1000x1.jpg">
+			</div>
+			<span class="song-name">Fall</span>
+			<span class="love"><i class="far fa-heart"></i></span>
+		</li>
+		<li class="artists-songs">
+			<span class="numbering" id="no-1">06</span>
+			<div class="song-poster-div">
+				<img class="song-poster" src="https://images.shazam.com/coverart/t52090707-b484682115_s400.jpg">
+			</div>
+			<span class="song-name">Let It Out</span>
+			<span class="love"><i class="far fa-heart"></i></span>
+		</li>
+	</ul>
+	</section>
+	</main>
+
+				<!-- ASIDE -->
+
+	<aside>
+	<section id="Recents" class="Queue">
+	<div class="Queue-heading">
+		<h2>Recents</h2>
+	</div>
+	<ul class="waiting-list singers-side">
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://images.shazam.com/coverart/t52090707-b484682115_s400.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Let it Out</h6>
+				<span>Ed-sheeran</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://images.genius.com/0d71bf29908bd465ca8c1813a4e97a95.1000x1000x1.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Love</h6>
+				<span>Ed-sheeran</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://external-preview.redd.it/o-PPWHP_VwcqcfJaV7JjOg87s2NPX5FR_2fD8Zlqw0U.jpg?auto=webp&s=9b65019decc6d954f7af72610bb5bb7b79bbbed3">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Senorita</h6>
+				<span>Shawn Mendes</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://ih1.redbubble.net/image.923057832.2594/pp,840x830-pad,1000x1000,f8f8f8.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>2002</h6>
+				<span>Anne-Marie</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://i.pinimg.com/736x/6a/51/58/6a5158e99d47c7b12ab9f2c63964fd3c.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Born For This</h6>
+				<span>The Score</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://m.media-amazon.com/images/I/71uW1E4gynL._SS500_.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>New Americana</h6>
+				<span>Hasley</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://images.shazam.com/coverart/t52090707-b484682115_s400.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Let it Out</h6>
+				<span>Ed-sheeran</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://images.genius.com/0d71bf29908bd465ca8c1813a4e97a95.1000x1000x1.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Love</h6>
+				<span>Ed-sheeran</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://external-preview.redd.it/o-PPWHP_VwcqcfJaV7JjOg87s2NPX5FR_2fD8Zlqw0U.jpg?auto=webp&s=9b65019decc6d954f7af72610bb5bb7b79bbbed3">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Senorita</h6>
+				<span>Shawn Mendes</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://ih1.redbubble.net/image.923057832.2594/pp,840x830-pad,1000x1000,f8f8f8.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>2002</h6>
+				<span>Anne-Marie</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://i.pinimg.com/736x/6a/51/58/6a5158e99d47c7b12ab9f2c63964fd3c.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Born For This</h6>
+				<span>The Score</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://m.media-amazon.com/images/I/71uW1E4gynL._SS500_.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>New Americana</h6>
+				<span>Hasley</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		
+	</ul>
+	</section>
+
+
+	<section class="Queue">
+	<div class="Queue-heading">
+		<h2>Made for You</h2>
+	</div>
+	<ul class="waiting-list singers-side">
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://images.shazam.com/coverart/t52090707-b484682115_s400.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Let it Out</h6>
+				<span>Ed-sheeran</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://images.genius.com/0d71bf29908bd465ca8c1813a4e97a95.1000x1000x1.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Love</h6>
+				<span>Ed-sheeran</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://external-preview.redd.it/o-PPWHP_VwcqcfJaV7JjOg87s2NPX5FR_2fD8Zlqw0U.jpg?auto=webp&s=9b65019decc6d954f7af72610bb5bb7b79bbbed3">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Senorita</h6>
+				<span>Shawn Mendes</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://ih1.redbubble.net/image.923057832.2594/pp,840x830-pad,1000x1000,f8f8f8.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>2002</h6>
+				<span>Anne-Marie</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://i.pinimg.com/736x/6a/51/58/6a5158e99d47c7b12ab9f2c63964fd3c.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Born For This</h6>
+				<span>The Score</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://m.media-amazon.com/images/I/71uW1E4gynL._SS500_.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>New Americana</h6>
+				<span>Hasley</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://images.shazam.com/coverart/t52090707-b484682115_s400.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Let it Out</h6>
+				<span>Ed-sheeran</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://images.genius.com/0d71bf29908bd465ca8c1813a4e97a95.1000x1000x1.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Love</h6>
+				<span>Ed-sheeran</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://external-preview.redd.it/o-PPWHP_VwcqcfJaV7JjOg87s2NPX5FR_2fD8Zlqw0U.jpg?auto=webp&s=9b65019decc6d954f7af72610bb5bb7b79bbbed3">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Senorita</h6>
+				<span>Shawn Mendes</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://ih1.redbubble.net/image.923057832.2594/pp,840x830-pad,1000x1000,f8f8f8.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>2002</h6>
+				<span>Anne-Marie</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://i.pinimg.com/736x/6a/51/58/6a5158e99d47c7b12ab9f2c63964fd3c.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Born For This</h6>
+				<span>The Score</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs singers-side-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://m.media-amazon.com/images/I/71uW1E4gynL._SS500_.jpg">
+			</div>
+
+			<div class="list-song-info">
+				<h6>New Americana</h6>
+				<span>Hasley</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		
+	</ul>
+	</section>
+</aside>
+</body>
+</html>

@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ninja Studio</title>
+	<script src="https://kit.fontawesome.com/1981abd42b.js" crossorigin="anonymous"></script>
+	<link rel="favicon" type="image/x-icon" href="">
+	<link rel="stylesheet" type="text/css"  href="Music-Player.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header id="header">
+	<div id="player-icon">
+		<i class="fab fa-spotify"></i>
+		<div id="website-name">
+			<span >Ninja</span>
+			<span>Studio</span>
+		</div>	
+	</div>
+	<div id="favourites">
+		<span>Favourites</span>
+	</div>
+	<form id="search-bar">
+		<div id="search-icon">	
+			<i class="fas fa-search"></i>
+		</div>
+		<input id="search-input" type="text" name="search" placeholder="    Search">
+		<div id="microphone-icon">
+			<i class="fas fa-microphone"></i>
+		</div>
+	</form>
+	<div id="notification-bar">
+		<i id="notification-icon" class="fas fa-bell"></i>
+	</div>
+	<div id="profile-bar">
+		<img id="profile-icon" src="C:\Users\91709\Desktop\chandler.jpg">
+	</div>
+	</header>
+	<main>
+	<section class="container" id="popular-albums">
+		<div class="pop-albums">
+			
+				<img class="pop-images" src="https://upload.wikimedia.org/wikipedia/en/a/a1/SpeakYourMindAlbum.png">
+			
+		</div>
+		<div id="billie-eilish" class="pop-albums">
+			
+				<img class="pop-images" src="https://static.wikia.nocookie.net/wherearetheavocados/images/d/d7/My_future.jpg/revision/latest?cb=20200729202132">
+			
+		</div>
+		<div class="pop-albums">
+			
+				<img class="pop-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+		
+		</div>
+	</section>
+	<section id="latest-release" class="container">
+		<div id="music-bar-popup" class="music-bar">
+			<img class="music-bar-pic" src="https://images-na.ssl-images-amazon.com/images/I/61N4A%2BCPFBL._SL1063_.jpg">
+			<div class="song-info">
+				<h4>Onism</h4>
+				<span>AUG 11,2017</span>
+			</div>
+			<span class="music-bar-love"><i class="far fa-heart"></i></span>
+			<div class="music-controls">
+				<div class="control-icons">
+					<i class="fas fa-random"></i>
+					<i class="fas fa-step-backward"></i>
+					<i class="fas fa-play-circle"></i>
+					<i class="fas fa-step-forward"></i>
+					<i class="fas fa-redo-alt"></i>
+				</div>
+				<progress class="progress" value="40" max="100"></progress>
+			</div>
+			<div class="sound-icons">
+				<i class="fas fa-microphone-alt"></i>
+				<i class="fas fa-list"></i>
+				<div>
+				<i class="fas fa-volume-up"></i>
+				<progress class="volume-bar" value="60" max="100">
+				</progress>
+			</div>
+			</div>
+		</div>
+
+		<h2 class="h2">Latest Release</h2>
+		<div class="latest-release-container">
+			<a  class="play-anchor" href="#music-bar-popup">
+				<img class="latest-pics" src="https://images-na.ssl-images-amazon.com/images/I/61N4A%2BCPFBL._SL1063_.jpg">
+				<div class="play-icon">
+					<i class="fas fa-play"></i>
+				</div>
+			</a>
+			<div class="song-info">
+				<h4>Onism</h4>
+				<span>AUG 11,2017</span>
+			</div>
+			<div class="song-menu">
+				<a href="#dp-menu">
+					<i class="fas fa-ellipsis-h"></i>
+				</a>
+					<div id="dp-menu" class="song-dropdown-menu">
+						<div>
+							<i class="fas fa-play"></i>
+							<p>Play Now</p>
+						</div>
+						<div>
+							<i class="fas fa-plus"></i>
+							<p>Add To Queue</p>
+						</div>
+						<div>
+							<i class="fas fa-th-list"></i>
+							<p>Add to Playlist</p>
+						</div>
+						<div style="border-bottom:0">
+							<i class="fas fa-info-circle"></i>
+							<p>Get Info</p>
+						</div>
+					</div>
+				
+				<span>4:44</span>
+			</div>
+		</div>
+		<div class="latest-release-container">
+			<a class="play-anchor" href="#music-bar-popup">
+				<img class="latest-pics" src="https://images-na.ssl-images-amazon.com/images/I/61N4A%2BCPFBL._SL1063_.jpg">
+			<div class="play-icon">
+					<i class="fas fa-play"></i>
+			</div>
+			</a>
+			<div class="song-info">
+				<h4>Onism</h4>
+				<span>AUG 11,2017</span>
+			</div>
+			<div class="song-menu">
+				<a href="#dp-menu-1"><i class="fas fa-ellipsis-h"></i></a>
+				<div id="dp-menu-1" class="song-dropdown-menu">
+						<div>
+							<i class="fas fa-play"></i>
+							<p>Play Now</p>
+						</div>
+						<div>
+							<i class="fas fa-plus"></i>
+							<p>Add To Queue</p>
+						</div>
+						<div>
+							<i class="fas fa-th-list"></i>
+							<p>Add to Playlist</p>
+						</div>
+						<div style="border-bottom:0">
+							<i class="fas fa-info-circle"></i>
+							<p>Get Info</p>
+						</div>
+					</div>
+				<span>4:44</span>
+			</div>
+		</div>
+		<div class="latest-release-container">
+			<a class="play-anchor" href="#music-bar-popup"><img class="latest-pics" src="https://images-na.ssl-images-amazon.com/images/I/61N4A%2BCPFBL._SL1063_.jpg">
+			<div class="play-icon">
+					<i class="fas fa-play"></i>
+			</div>
+			</a>
+			<div class="song-info">
+				<h4>Onism</h4>
+				<span>AUG 11,2017</span>
+			</div>
+			<div class="song-menu">
+				<a href="#dp-menu-2"><i class="fas fa-ellipsis-h"></i></a>
+				<div id="dp-menu-2" class="song-dropdown-menu">
+						<div>
+							<i class="fas fa-play"></i>
+							<p>Play Now</p>
+						</div>
+						<div>
+							<i class="fas fa-plus"></i>
+							<p>Add To Queue</p>
+						</div>
+						<div>
+							<i class="fas fa-th-list"></i>
+							<p>Add to Playlist</p>
+						</div>
+						<div style="border-bottom:0">
+							<i class="fas fa-info-circle"></i>
+							<p>Get Info</p>
+						</div>
+					</div>
+				<span>4:44</span>
+			</div>
+		</div >
+		<div class="latest-release-container">
+			<a class="play-anchor" href="#music-bar-popup"><img class="latest-pics" src="https://images-na.ssl-images-amazon.com/images/I/61N4A%2BCPFBL._SL1063_.jpg">
+			<div class="play-icon">
+					<i class="fas fa-play"></i>
+			</div>
+			</a>
+			<div class="song-info">
+				<h4>Onism</h4>
+				<span>AUG 11,2017</span>
+			</div>
+			<div class="song-menu">
+				<a href="#dp-menu-3"><i class="fas fa-ellipsis-h"></i></a>
+				<div id="dp-menu-3" class="song-dropdown-menu">
+						<div>
+							<i class="fas fa-play"></i>
+							<p>Play Now</p>
+						</div>
+						<div>
+							<i class="fas fa-plus"></i>
+							<p>Add To Queue</p>
+						</div>
+						<div>
+							<i class="fas fa-th-list"></i>
+							<p>Add to Playlist</p>
+						</div>
+						<div style="border-bottom:0">
+							<i class="fas fa-info-circle"></i>
+							<p>Get Info</p>
+						</div>
+					</div>
+				<span>4:44</span>
+			</div>
+		</div>
+	</section>
+
+	<section id="artists" class="pop-artists container">
+		<h2 class="h2"> Popular Artists</h2>
+		<figure class="artists-fig">
+			<div>
+				<a href="Ed-sheeran-playlist.html">
+					<img class="artists" src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ed564163dbc9800060b2829%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D0%26cropX2%3D1080%26cropY1%3D0%26cropY2%3D1080">
+				</a>
+					<figcaption class="white">Ed Shereen</figcaption>
+				
+			</div>
+			<div>
+				<a href="selena-gomez-playlist.html">
+					<img class="artists" src="https://pyxis.nymag.com/v1/imgs/3b6/d67/84797c3613ee95604b9262ce0823c67a2e-21-selena-gomez.rsquare.w1200.jpg">
+				</a>
+				<figcaption class="white">Selena gomez</figcaption>
+				
+			</div>
+			<div>
+				<a href="post-malone-playlist.html">
+					<img class="artists" src="https://pyxis.nymag.com/v1/imgs/084/8be/6b8df7e130332f8dd6662f37fb4d16df09-11-post-malone.rsquare.w1200.jpg">
+				</a>
+				<figcaption class="white">Post-malone</figcaption>
+			</div>
+			<div>
+				<a href="akon-playlist.html">
+				<img class="artists" src="https://pbs.twimg.com/profile_images/1302801964141629440/Cop5n9yP.jpg">
+				</a>
+				<figcaption class="white">Akon</figcaption>
+			</div>
+			<div>
+				<a href="billie-Eilish-playlist.html">
+					<img class="artists" src="https://i.guim.co.uk/img/media/67944850a1b5ebd6a0fba9e3528d448ebe360c60/359_0_2469_1482/master/2469.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=03f3e07a7f367f36a738f1ad8132b3bb">
+				</a>
+				<figcaption class="white">Billie Eilish</figcaption>
+				
+			</div>
+			<div>
+				<a href="Katty-Perry-PlayList.html">
+				<img class="artists" src="https://yt3.ggpht.com/ytc/AAUvwnjOBYcsHLgLP-oNIr72n6hnrpHStgSQpk9NZ7-8qQ=s900-c-k-c0x00ffffff-no-rj">
+				</a>
+				<figcaption class="white" >Katty-Perry</figcaption>
+			</div>
+		</figure>
+	</section>
+	<section id="genre" class="container">
+		<div id="station-icon">
+				<img class="genre-head-image" src="https://i.pinimg.com/originals/6a/0a/02/6a0a02dd4c73e6ba107317e031677292.jpg">
+		</div>
+		<div class="station">
+			
+				<img class="genre-images" src="https://www.udiscovermusic.com/wp-content/uploads/2019/02/Best-Love-Songs-featured-image.jpg">
+		
+			<h3>Love</h3>
+			<div class="smokes"></div>
+		</div>
+		<div id="Retro" class="station">
+				<img class="genre-images" src="https://st2.depositphotos.com/6838562/11224/v/950/depositphotos_112244362-stock-illustration-vintage-style-design-logo-radio.jpg">
+			<h3>Retro</h3>
+			<div class="smokes"></div>
+		</div>
+		<div id="Chill" class="station">
+				<img class="genre-images" src="https://i.guim.co.uk/img/media/3eb709d3ba0e7b1e121ac0efd934c9128eeec873/0_0_4631_2778/master/4631.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1ac5ad1bcf791576f845e60bc3fdd58a">
+			<h3>Chill</h3>
+			<div class="smokes"></div>
+		</div>
+		<div id="Workout" class="station">
+			
+				<img id="Workout" class="genre-images" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F35%2F2020%2F10%2F02%2Ftriceps-workout-with-weights-promo.jpg&q=85">
+			
+			<h3>Workout</h3>
+			<div class="smokes"></div>
+		</div>
+		<div id="Rock" class="station">
+			
+				<img class="genre-images" src="https://cdn.lifehack.org/wp-content/uploads/2015/09/rock-music-wallpapers.jpg">
+			
+			<h3>Rock</h3>
+			<div class="smokes"></div>
+		</div>
+		<div id="Pop" class="station">
+			
+				<img class="genre-images" src="https://static01.nyt.com/images/2018/12/30/arts/30yearend-pop2/merlin_147857643_8e0c5c65-4549-4946-b51d-49425b9dcf24-articleLarge.jpg?quality=75&auto=webp&disable=upscale">
+			
+			<h3  >Pop</h3>
+			<div class="smokes"></div>
+		</div>
+	</section>
+	<section id="bigger-stations" class="container">
+		<div class="station-big">
+			
+				<img class="big-station-img" src="https://compote.slate.com/images/c40dcf09-1ca3-417a-b0f4-5461c340d95e.jpeg?width=780&height=520&rect=5296x3531&offset=0x0">
+			
+			<h3>Party</h3>
+		</div>
+		<div class="station-big">
+			<a href="">
+				<img class="big-station-img" src="https://www.musictech.net/wp-content/uploads/2019/10/tutorial-create-edm-free-header@1400x1050.jpg">
+			</a>
+			<h3 id="Electronic">Electronic</h3>
+		</div>
+		<div class="station-big">
+			
+				<img class="big-station-img" src="https://www.travelersjoy.com/blog/honeymoon_road_trip_1.jpg">
+			
+			<h3 id="Road-Trip">Road Trip</h3>
+		</div>
+	</section>
+	<section id="English" class="container Lastest-language-songs">
+		<h2 class="h2"> Latest English</h2>
+		<figure class="english-songs-container">
+			<div class="eng">
+				<img src="https://pbs.twimg.com/media/ErCpUj_XcAEx3SG.jpg:large">
+				<figcaption class="figcaption-latest-songs">
+					<h4>Don't Play</h4>
+					<span>Jan 15,2021</span>
+				</figcaption>
+			</div>
+			<div class="eng">
+				<img src="https://i.gadgets360cdn.com/large/no-time-to-die-billie-eilish-c_1581660144153.jpg">
+				<figcaption class="figcaption-latest-songs">
+					<h4>No Time To Die</h4>
+					<span>Apr 10,2020</span>
+				</figcaption>
+			</div>
+			<div class="eng">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTGtYaKQqg_WUNCDWy09cmR60BpXIhX1jJ5A&usqp=CAU">
+				<figcaption class="figcaption-latest-songs">
+					<h4>To be Young</h4>
+					<span>Jul 17,2020</span>
+				</figcaption>
+			</div>
+			<div class="eng">
+				<img src="https://images.indianexpress.com/2020/08/ice-cream.jpg">
+				<figcaption class="figcaption-latest-songs">
+					<h4>Ice Cream</h4>
+					<span>Aug 28,2020</span>
+				</figcaption>
+			</div>
+			<div class="eng">
+				<img src="https://www.refinery29.com/images/10138450.jpg?format=webp&width=720&height=864&quality=85">
+				<figcaption class="figcaption-latest-songs">
+					<h4>Ice Cream</h4>
+					<span>Aug 22,2020</span>
+				</figcaption>
+			</div>
+			<div class="eng">
+				<img src="https://www.refinery29.com/images/10046795.jpg?format=webp&width=720&height=864&quality=85">
+				<figcaption class="figcaption-latest-songs">
+					<h4>Better</h4>
+					<span>Sep 25,2020</span>
+				</figcaption>
+			</div>
+		</figure>
+
+	</section>
+	<section id="English" class="container Lastest-language-songs">
+		<h2 class="h2"> Latest Hindi</h2>
+		<figure class="english-songs-container">
+			 <div class="eng">
+				<img src="https://lordlyrics.com/wp-content/uploads/2020/10/Burjkhalifa-Lyrics.jpg">
+				<figcaption class="figcaption-latest-songs">
+					<h4>Burj Khalifa</h4>
+					<span>Nov 4,2020</span>
+				</figcaption>
+			</div>
+			<div class="eng">
+				<img src="https://i0.wp.com/orissadiary.com/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-16-at-3.28.35-PM.jpeg?fit=1280%2C1280&ssl=1">
+				<figcaption class="figcaption-latest-songs">
+					<h4>Nach Meri rani</h4>
+					<span>oct 20,2020</span>
+				</figcaption>
+			</div>
+			<div class="eng">
+				<img src="https://a10.gaanacdn.com/images/albums/0/3767400/crop_175x175_1611335418_3767400.jpg">
+				<figcaption class="figcaption-latest-songs">
+					<h4>Oh Saaiyan</h4>
+					<span>Jan 12,2021</span>
+				</figcaption>
+			</div>
+			<div class="eng">
+				<img src="https://timesofindia.indiatimes.com/thumb/msid-80265019,width-1200,height-900,resizemode-4/.jpg">
+				<figcaption class="figcaption-latest-songs">
+					<h4>Ice Cream</h4>
+					<span>Jan 14,2020</span>
+				</figcaption>
+			</div>
+			<div class="eng">
+				<img src="https://lyricsraag.com/wp-content/uploads/2020/10/arijit-aabaad-barbaad-kardo-lyrics-translation-ludo.jpg">
+				<figcaption class="figcaption-latest-songs">
+					<h4> Aabaad Barbaad</h4>
+					<span>Oct 21,2020</span>
+				</figcaption>
+			</div>
+			<div class="eng">
+				<img src="https://upload.wikimedia.org/wikipedia/en/c/c7/Street_Dancer_3D_poster.jpg">
+				<figcaption class="figcaption-latest-songs">
+					<h4>Garmi</h4>
+					<span>Jan 7,2020</span>
+				</figcaption>
+			</div>
+		</figure>
+	</section>
+	</main>
+</body>
+<aside class="Queue">
+	<div class="Queue-heading">
+		<h2>Queue</h2>
+		<span class="Queue-menu">Queue</span>
+		<a href="#ang"class="Queue-menu-icon">
+			<i id="angle-down-icon" class="fas fa-angle-down">
+				<div id="ang" class="angle-down-div">
+					<p>Add to Queue</p>
+					<p style="border-bottom:0">Shuffle</p>
+				</div>
+			</i>
+		</a>
+
+	</div>
+	<ul class="waiting-list">
+		<li class="waiting-songs">
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li  id="four" class="waiting-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+		<li class="waiting-songs">
+
+			<div class="img-div">
+				<img class="wtng-song-images" src="https://upload.wikimedia.org/wikipedia/en/4/45/Lauv_-_How_I%27m_Feeling.png">
+			</div>
+
+			<div class="list-song-info">
+				<h6>Modern Lonileness</h6>
+				<span>Lauv</span>
+			</div>
+			<a href=""><i class="far fa-heart"></i></a>
+		</li>
+	</ul>
+</aside>
+</html>
